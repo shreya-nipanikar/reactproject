@@ -1,0 +1,14 @@
+.card {
+  width: 78%;
+  background: none;
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.2);
+}
+.card-body {
+  color: white;
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 100%;
+  }
+}
